@@ -4,7 +4,7 @@ Author:Daanyal */
 int main()
 {
   int a, b, i = 2, gcd = 1, lcm;
-  printf("enter two number(a,b) : ");
+  printf("Enter two numbers(a,b) : ");
   scanf("%d,%d", &a, &b);
 
   while (i < a && i < b)
@@ -15,9 +15,9 @@ int main()
     }
     i++;
   }
-  printf("gcd= %d \n", gcd);
+  printf("GCD = %d \n", gcd);
   lcm = a * b / gcd;
-  printf("lcm= %d", lcm);
+  printf("LCM = %d", lcm);
   return 0;
 }
 /* Output:enter two number(a,b) : 21,30
